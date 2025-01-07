@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班费列表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .fee-list {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        .fee-list th, .fee-list td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .fee-list th {
+            background-color: #f7f7fa;
+            color: #333;
+        }
+        .fee-list tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .fee-list .actions {
+            display: flex;
+            gap: 10px;
+        }
+        .fee-list .actions a {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .fee-list .actions a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<table class="fee-list">
+    <caption>
+        <h1>班费列表</h1>
+        <div class="actions"><a href="">添加</a></div>
+    </caption>
+    <thead>
+    <tr>
+        <th>编号</th>
+        <th>主题</th>
+        <th>内容</th>
+        <th>金额</th>
+        <th>时间</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>班级活动</td>
+        <td>组织一次郊游活动</td>
+        <td>¥500</td>
+        <td>2023-10-01</td>
+        <td class="actions">
+            <a href="">修改</a>
+            <a href="">删除</a>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>学习资料</td>
+        <td>购买辅导书籍</td>
+        <td>¥300</td>
+        <td>2023-09-25</td>
+        <td class="actions">
+            <a href="">修改</a>
+            <a href="">删除</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

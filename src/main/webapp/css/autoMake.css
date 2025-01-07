@@ -1,0 +1,162 @@
+body{
+    background-image: url("../image/interlaced.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.paper{
+    width: 1000px;
+    border: 10px solid gray;
+    margin:auto;
+    background: #FFFFFF;
+    padding-bottom: 50px;
+}
+.Title{
+    text-align: center;
+    font-family: 楷体;
+    font-size: 40px;
+    width: 900px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.describle{
+    text-align: left;
+    font-family: 楷体;
+    font-size: 20px;
+    width: 900px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.details{
+    width: 650px;
+    height: 100px;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sumPoints {
+    background: #FFFFFF;
+    text-align: center;
+    width: 150px;
+    float: left;
+    height: 100%;
+    outline:none;
+    border:0px;
+    font-size: 25px;
+    font-family: 楷体;
+    font-weight: bold;
+}
+.sumQuestions {
+    background: #FFFFFF;
+    width: 150px;
+    text-align: center;
+    float: left;
+    height: 100%;
+    font-family: 楷体;
+    outline:none;
+    margin-left: 20px;
+    border:0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.points1{
+    background: #FFFFFF;
+    width: 150px;
+    float: left;
+    height: 100%;
+    text-align:right;
+    outline:none;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 楷体;
+    font-weight: bold;
+    border:0px;
+}
+.points2 {
+    background: #FFFFFF;
+    width: 100px;
+    float: left;
+    font-size: 25px;
+    font-family: 楷体;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 100%;
+    text-align: left;
+    outline:none;
+    border:0px;
+    text-decoration:underline;
+}
+.questions{
+    width: 900px;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    border:1px dashed #F00;
+    padding-bottom: 50px;
+}
+.p1{
+    margin-top: 50px;
+    float:left;
+    width: 100%;
+    border: none;
+}
+.p2{
+    margin-top: 50px;
+    height: 1050px;
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+    border: none;
+}
+.other{
+    height: 50px;
+    margin-top: 30px;
+}
+.label{
+    margin-bottom: 1px;
+    text-align: center;
+}
+.problem{
+    width:45%;
+    height: 70px;
+    border: 0px;
+    margin-top:30px ;
+    margin-left: 5%;
+    float: left;
+}
+.img{
+    width:200px;
+    height: 70px;
+    border: 0px;
+    margin-top:30px ;
+}
+.number{
+    width:40px;
+    height: 40px;
+    border: none;
+    margin-left: 5px;
+    margin-top:15px ;
+    text-align: center;
+    font-size: 25px;
+    outline:none;
+}
+.numberInput{
+    width:40px;
+    height: 40px;
+    border: 1px solid deepskyblue;
+    margin-left: 5px;
+    margin-top:15px ;
+    text-align: center;
+    font-size: 25px;
+}
+#Submit{
+    width: 100px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 楷体;
+    font-weight: bold;
+}

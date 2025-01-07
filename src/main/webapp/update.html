@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改班费</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .add-fee-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        .add-fee-form h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-group textarea {
+            resize: vertical;
+            height: 80px;
+        }
+        .form-group button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<form class="add-fee-form">
+    <h2>修改班费</h2>
+    <input type="hidden" id="id" name="id" value="1001">
+    <div class="form-group">
+        <label for="theme">主题</label>
+        <input type="text" id="theme" name="theme" required value="测试主题">
+    </div>
+    <div class="form-group">
+        <label for="content">内容</label>
+        <input type="text" id="content" name="content" required value="测试内容">
+    </div>
+    <div class="form-group">
+        <label for="amount">金额</label>
+        <input type="number" id="amount" name="amount" step="0.01" required value="10000">
+    </div>
+    <div class="form-group">
+        <label for="date">时间</label>
+        <input type="date" id="date" name="date" required value="2025-01-01">
+    </div>
+    <div class="form-group">
+        <button type="submit">添加</button>
+    </div>
+</form>
+
+</body>
+</html>
